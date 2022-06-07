@@ -1,0 +1,93 @@
+.bg-secondary {
+  --bs-bg-opacity: 1;
+  background-color: #1c1c1c !important;
+}
+
+mark {
+  background-color: #0d6efd;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0b0b0c;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+.box {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.box .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 70%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 100%; /* Set the width of the positioned div */
+}
+
+.btn-man-van-service {
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  background-image: url("/static/img/man_van.jpg");
+  background-size: cover;
+  border-color: white;
+}
+
+.btn-man-van-service:hover {
+  background-image: url("/static/img/black.png");
+}
+
+.btn-large-items-service {
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  background-image: url("/static/img/large_deliveries.jpg");
+  background-size: cover;
+  border-color: white;
+}
+
+.btn-large-items-service:hover {
+  background-image: url("/static/img/black.png");
+}
+
+.btn-removals-service {
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  background-image: url("/static/img/domestic_removals.jpg");
+  background-size: cover;
+  border-color: white;
+}
+
+.btn-removals-service:hover {
+  background-image: url("/static/img/black.png");
+}
+
+.center_div {
+  margin: 0 auto;
+  max-width: 730px;
+}
+
+.form-group {
+  padding-top: 5px !important ;
+  padding-bottom: 5px !important ;
+}
+
+.wrap-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
